@@ -49,8 +49,7 @@ Open-source contribution to an acer-wmi kernel module fork.
 
 ## 💼 What I bring beyond code
 
-- **Team lead experience** — currently leading a 5-developer capstone team; previously managed a 5-person research project delivering a client-facing fundraising strategy report
-- **Proven mentor** — promoted to Employee Trainer at Starbucks, onboarding and coaching 10+ new hires with 100% evaluation success
+- **Team lead experience** — Led a 5-developer software development team; previously managed a 5-person research project delivering a client-facing fundraising strategy report
 - **Operations under pressure** — as Shift Manager, raised customer satisfaction from 43% to 95% in under 6 months
 - **Bilingual** — English / Spanish
 
