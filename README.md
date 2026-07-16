@@ -17,7 +17,7 @@ I'm a Computer Science student on an AI/ML track, working toward a master's degr
 
 ## 🚀 Featured Projects
 
-### 🧠 [Neural Network from Scratch](https://github.com/RonaldSierraDev/neural-network-from-scratch)
+### 🧠 [Neural Network from Scratch](https://github.com/RonaldSierraDev/neural-net-from-scratch)
 A fully-connected neural network built with **only Python and NumPy**
 - Implemented forward propagation, backpropagation, and gradient descent by hand
 - Multi-layer architecture with ReLU hidden layers and softmax output, trained on MNIST
@@ -29,7 +29,7 @@ An AI job-application assistant powered by a **multi-agent CrewAI workflow**.
 - Orchestrates 4 specialized agents (job research, candidate profiling, resume strategy, interview prep) over LLM APIs with Serper search, web scraping, and file-reading tools
 - Currently leading a 5-developer team extending this into a full job-search platform
 
-### 🐧 [Linuwu-Sense — Linux Kernel Module Contribution](https://github.com/RonaldSierraDev)
+### 🐧 [Linuwu-Sense — Linux Kernel Module Contribution](https://github.com/0x7375646F/Linuwu-Sense/pull/119)
 Open-source contribution to an acer-wmi kernel module fork.
 - Added support for the Acer Predator PH315-52: Turbo mode + dual fan control on previously unsupported hardware
 - Mapped the device through the driver's DMI matching and WMI capability system, validated on real hardware (kernel 6.14), and **submitted upstream**
