@@ -36,23 +36,4 @@ Open-source contribution to an acer-wmi kernel module fork.
 
 ---
 
-## 🛠️ Technical Skills
-
-| | |
-|---|---|
-| **Languages** | Python, TypeScript, Java, C, Bash |
-| **ML / Data** | NumPy, neural networks from scratch, MNIST classification |
-| **Frameworks & Tools** | FastAPI, CrewAI, REST APIs, Git/GitHub, Linux, LaTeX |
-| **Currently learning** | MLOps (Docker, CI/CD), AWS, CNNs |
-
----
-
-## 💼 What I bring beyond code
-
-- **Team lead experience** — Led a 5-developer software development team; previously managed a 5-person research project delivering a client-facing fundraising strategy report
-- **Operations under pressure** — as Shift Manager, raised customer satisfaction from 43% to 95% in under 6 months
-- **Bilingual** — English / Spanish
-
----
-
 🔎 **Open to Summer 2027 internships in ML/AI and software engineering** — feel free to reach out!
