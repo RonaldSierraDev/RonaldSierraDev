@@ -36,4 +36,4 @@ Open-source contribution to an acer-wmi kernel module fork.
 
 ---
 
-🔎 **Open to internships and research positions** — feel free to reach out!
+🔎 **Open to internships and research positions** — feel free to reach out! :) 
