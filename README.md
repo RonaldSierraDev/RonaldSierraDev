@@ -17,23 +17,42 @@ I'm a Computer Science student on an AI/ML track, working toward a master's degr
 
 
 ## 🚀 Featured Projects
+## 🧠 Neural Network from Scratch
 
-### 🧠 [Neural Network from Scratch](https://github.com/RonaldSierraDev/neural-net-from-scratch)
-A fully-connected neural network built with **only Python and NumPy**
-- Implemented forward propagation, backpropagation, and gradient descent by hand
-- Multi-layer architecture with ReLU hidden layers and softmax output, trained on MNIST
-- **In progress:** interactive TypeScript + FastAPI visualizer — draw a digit and watch the network classify it live, plus an end-to-end MLOps pipeline (Docker, CI/CD, AWS deployment)
+A fully-connected neural network built with only Python and NumPy, shipped as a full-stack live demo.
 
-### 🤖 [SearchPal](https://github.com/RonaldSierraDev/searchpal)
-An AI job-application assistant powered by a **multi-agent CrewAI workflow**.
-- Ingests a job posting + candidate experience, generates a tailored resume and interview prep materials
-- Orchestrates 4 specialized agents (job research, candidate profiling, resume strategy, interview prep) over LLM APIs with Serper search, web scraping, and file-reading tools
-- Currently leading a 5-developer team extending this into a full job-search platform
+Implemented forward propagation, hand-derived backpropagation, and gradient descent from scratch — no ML frameworks
+784-128-10 architecture with a ReLU hidden layer, He initialization, and a numerically stable softmax output, trained on hand-parsed raw MNIST IDX binary files
+Reaches 98% test accuracy on MNIST
+Shipped as a full-stack live demo (TypeScript + FastAPI) — draw a digit and watch the network classify it in real time
 
-### 🐧 [Linuwu-Sense — Linux Kernel Module Contribution](https://github.com/0x7375646F/Linuwu-Sense/pull/119)
-Open-source contribution to an acer-wmi kernel module fork.
-- Added support for the Acer Predator PH315-52: Turbo mode + dual fan control on previously unsupported hardware
-- Mapped the device through the driver's DMI matching and WMI capability system, validated on real hardware (kernel 6.14), and **submitted upstream**
+
+## 🔬 PathOps  🚧 in active development
+
+Production MLOps for histopathology — an end-to-end system that trains, deploys, monitors, and retrains a vision model for cancer-detection on pathology images. Built to demonstrate responsible, reproducible ML infrastructure in a domain where correctness matters.
+
+Full lifecycle pipeline: train → deploy → monitor → retrain, with rigorous evaluation (AUC, sensitivity/specificity, calibration) rather than accuracy alone
+Stack: PyTorch, FastAPI, Docker, AWS (ECS · S3 · RDS), Terraform (IaC), MLflow, PostgreSQL
+Prediction audit trail, data-drift monitoring, and CI/CD-triggered retraining with a human-in-the-loop feedback loop
+Roadmap: evolving into a Foundry-style ontology platform for pathology research — whole-slide image support, foundation-model embeddings, and a Rust performance/correctness core for security- and throughput-critical paths
+
+
+## 🐧 Linuwu-Sense — Linux Kernel Module Contribution
+
+An upstream contribution to an open-source Linux kernel module (acer-wmi fork), written in C.
+
+Added support for the Acer Predator PH315-52, enabling Turbo mode and dual fan control on previously unsupported hardware
+Analyzed the driver's DMI-based device matching and WMI capability system to map the device to the correct quirk configuration
+Verified the patch on kernel 6.14 — module probe, hotkey handling, and reboot persistence — validated on real hardware and submitted upstream
+
+
+## 🤖 SearchPal
+
+An AI job-application assistant powered by a multi-agent CrewAI workflow.
+
+Ingests a job posting + candidate experience, generates a tailored resume and interview prep materials
+Orchestrates 4 specialized agents (job research, candidate profiling, resume strategy, interview prep) over LLM APIs with Serper search, web scraping, and file-reading tools
+Currently leading a 5-developer team extending this into a full job-search platform
 
 ---
 
