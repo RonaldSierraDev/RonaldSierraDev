@@ -7,7 +7,7 @@
 
 I'm a Computer Science student on an AI/ML track, working toward a master's degree in computer science. I'm building toward combining machine learning with a strong foundation in infrastructure to create large-scale ML systems for medical platforms, assisting in healthcare and pathology.
 
-📫 ronald.sierra144@gmail.com &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/ronaldsierra01)
+📫 ronald.sierra777@proton.me &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/ronaldsierra01)
 
 ---
 
