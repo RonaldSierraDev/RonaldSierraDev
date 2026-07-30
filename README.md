@@ -1,4 +1,4 @@
-# Hi, I'm Ronald Sierra <img src="bonfire.gif" width="72" height="72" />
+# Hi, I'm Ronald :) <img src="bonfire.gif" width="72" height="72" />
 
 **Computer Science student @ Florida International University** 
 
