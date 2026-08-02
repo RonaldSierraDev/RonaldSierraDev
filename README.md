@@ -17,43 +17,41 @@ I'm a Computer Science student with a minor in Mathematics; working toward a mas
 
 
 ## 🚀 Featured Projects
-## 🧠 Neural Network from Scratch
 
+### 🔬 PathOPS — Production MLOps for Histopathology
+An end-to-end system that trains, deploys, monitors, and retrains a vision model for cancer detection on pathology images. Built to demonstrate responsible, reproducible ML infrastructure in a domain where correctness matters.
+
+- Fine-tuned a ResNet18 on the PatchCamelyon dataset, catching **95.3% of tumors (0.935 AUC)**, with temperature scaling cutting expected calibration error from **0.112 → 0.011** for trustworthy confidence scores
+- Full lifecycle pipeline: train → deploy → monitor → retrain, evaluated on AUC, sensitivity/specificity, and calibration rather than accuracy alone
+- MLflow tracks experiments and gates model promotion on accuracy thresholds; a FastAPI service runs on AWS (ECS Fargate · RDS · S3) with Terraform-managed infrastructure
+- GitHub Actions redeploys on every merge; a scheduled Lambda monitors data drift with CloudWatch/SNS alerts
+- Prediction audit trail and human-in-the-loop feedback loop for CI/CD-triggered retraining
+- **Stack:** PyTorch, FastAPI, Docker, AWS (ECS · S3 · RDS), Terraform, MLflow, PostgreSQL, GitHub Actions
+
+**Next:** evolving into a Foundry-style ontology platform for pathology research — whole-slide image support, foundation-model embeddings, and a Rust core for throughput- and correctness-critical paths.
+
+### 🧠 Neural Network from Scratch
 A fully-connected neural network built with only Python and NumPy, shipped as a full-stack live demo.
 
-Implemented forward propagation, hand-derived backpropagation, and gradient descent from scratch — no ML frameworks
-784-128-10 architecture with a ReLU hidden layer, He initialization, and a numerically stable softmax output, trained on hand-parsed raw MNIST IDX binary files
-Reaches 98% test accuracy on MNIST
-Shipped as a full-stack live demo (TypeScript + FastAPI) — draw a digit and watch the network classify it in real time
+- Implemented forward propagation, hand-derived backpropagation, and gradient descent from scratch — no ML frameworks
+- 784-128-10 architecture with a ReLU hidden layer, He initialization, and a numerically stable softmax output, trained on hand-parsed raw MNIST IDX binary files
+- Reaches **98% test accuracy** on MNIST
+- Shipped as a full-stack live demo (TypeScript + FastAPI) — draw a digit and watch the network classify it in real time
 
-
-## 🔬 PathOps  🚧 in active development
-
-Production MLOps for histopathology — an end-to-end system that trains, deploys, monitors, and retrains a vision model for cancer-detection on pathology images. Built to demonstrate responsible, reproducible ML infrastructure in a domain where correctness matters.
-
-Full lifecycle pipeline: train → deploy → monitor → retrain, with rigorous evaluation (AUC, sensitivity/specificity, calibration) rather than accuracy alone
-Stack: PyTorch, FastAPI, Docker, AWS (ECS · S3 · RDS), Terraform (IaC), MLflow, PostgreSQL
-Prediction audit trail, data-drift monitoring, and CI/CD-triggered retraining with a human-in-the-loop feedback loop
-Roadmap: evolving into a Foundry-style ontology platform for pathology research — whole-slide image support, foundation-model embeddings, and a Rust performance/correctness core for security- and throughput-critical paths
-
-
-## 🐧 Linuwu-Sense — Linux Kernel Module Contribution
-
+### 🐧 Linuwu-Sense — Linux Kernel Module Contribution
 An upstream contribution to an open-source Linux kernel module (acer-wmi fork), written in C.
 
-Added support for the Acer Predator PH315-52, enabling Turbo mode and dual fan control on previously unsupported hardware
-Analyzed the driver's DMI-based device matching and WMI capability system to map the device to the correct quirk configuration
-Verified the patch on kernel 6.14 — module probe, hotkey handling, and reboot persistence — validated on real hardware and submitted upstream
+- Added support for the Acer Predator PH315-52, enabling Turbo mode and dual fan control on previously unsupported hardware
+- Analyzed the driver's DMI-based device matching and WMI capability system to map the device to the correct quirk configuration
+- Verified the patch on kernel 6.14 — module probe, hotkey handling, and reboot persistence — validated on real hardware and submitted upstream
 
-
-## 🤖 SearchPal
-
+### 🤖 SearchPal
 An AI job-application assistant powered by a multi-agent CrewAI workflow.
 
-Ingests a job posting + candidate experience, generates a tailored resume and interview prep materials
-Orchestrates 4 specialized agents (job research, candidate profiling, resume strategy, interview prep) over LLM APIs with Serper search, web scraping, and file-reading tools
-Currently leading a 5-developer team extending this into a full job-search platform
+- Ingests a job posting and candidate experience, then generates a tailored resume and interview prep materials
+- Orchestrates 4 specialized agents (job research, candidate profiling, resume strategy, interview prep) over LLM APIs with Serper search, web scraping, and file-reading tools
+- Led a team of 4 developers in an Agile Scrum workflow extending this into a full job-search platform
 
 ---
 
-🔎 **Open to internships and research positions** — feel free to reach out! :) 
+🔎 **Open to internships and research positions** — feel free to reach out! :)
