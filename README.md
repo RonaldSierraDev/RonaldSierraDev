@@ -1,11 +1,9 @@
 # Hi, I'm Ronald :) <img src="bonfire.gif" width="72" height="72" />
 
-**Computer Science student @ Florida International University** 
+**Master's Computer Science student @ Florida International University** 
+**Graduating Fall 2028**
 
-**Graduating Fall 2027.**
-**Master's Degree in CS coming soon!** 
-
-I'm a Computer Science student with a minor in Mathematics; working toward a master's degree in computer science. I'm building toward combining machine learning with a strong foundation in infrastructure to create large-scale ML systems for medical platforms, assisting in healthcare and pathology.
+I'm a B.S. + M.S. Computer Science student with a minor in Mathematics. I'm building toward combining machine learning with a strong foundation in infrastructure to create large-scale ML systems for medical platforms, assisting in healthcare and pathology.
 
 📫 rsier033@fiu.edu &nbsp;|&nbsp; 💼 [LinkedIn](https://linkedin.com/in/ronaldsierra01)
 
